@@ -1,2 +1,0 @@
-# techykminds
-My youtube channel
