@@ -100,8 +100,8 @@ html, body {
   border-top: 1px solid rgba(0, 0, 0, 0.12);
 }
 .mdl-demo #add {
-  position: absolute;
-  right: 40px;
+  position: fixed;
+  bottom: 40px;
   top: 36px;
   z-index: 999;
 }
