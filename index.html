@@ -28,15 +28,13 @@
       <script>
          document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.fixed-action-btn');
-    var instances = M.FloatingActionButton.init(elems, {
-      toolbarEnabled: true
-    });
+    var instances = M.FloatingActionButton.init(elems, options);
   });
 
   // Or with jQuery
 
-  $('.fixed-action-btn').floatingActionButton({
-    toolbarEnabled: true
+  $(document).ready(function(){
+    $('.fixed-action-btn').floatingActionButton();
   });
         </scipt>
     </body>
